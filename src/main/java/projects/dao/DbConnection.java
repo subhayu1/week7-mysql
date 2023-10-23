@@ -14,7 +14,7 @@ public class DbConnection {
   private static final String PORT = System.getenv("DB_PORT");
   private static final String SCHEMA =  System.getenv("DB_SCHEMA");
   private static final String PASSWORD = System.getenv("DB_PASSWORD");
-  //P@ssw0rd@123$
+
   private static final String USERNAME = System.getenv("DB_USER");
 
   private static final String DB_URL = "jdbc:mysql://" + HOST + ":" + PORT + "/" + SCHEMA + "?user=" + USERNAME + "&password=" + PASSWORD + "&useSSL=false&allowPublicKeyRetrieval=true";
